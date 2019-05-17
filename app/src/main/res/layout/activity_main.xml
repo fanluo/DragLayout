@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <com.andy.extend.layout.demo.view.PullExtendLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <com.andy.extend.layout.demo.view.ExtendListHeader
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"/>
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00ff00"
+                android:clickable="true"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp">
+            <TextView
+                    android:text="我是主内容"
+                    android:textSize="28sp"
+                    android:gravity="center"
+                    android:layout_width="300dp" android:layout_height="300dp"/>
+        </RelativeLayout>
+
+
+    </com.andy.extend.layout.demo.view.PullExtendLayout>
+
+</LinearLayout>
